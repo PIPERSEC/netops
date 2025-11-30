@@ -1,0 +1,42 @@
+# Python virtual environment
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+share/
+*.pyc
+__pycache__/
+*.py[cod]
+
+# Network device credentials
+*.key
+*.pem
+credentials.yml
+passwords.yml
+secrets.yml
+**/vault.yml
+inventory/*.vault
+
+# Device backups
+tools/backup/*
+!tools/backup/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/settings.json.user
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Nornir
+.nornir-cache/
+
+# Testing
+.pytest_cache/

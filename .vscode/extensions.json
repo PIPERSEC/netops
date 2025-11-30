@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.black-formatter",
+    "redhat.ansible",
+    "redhat.vscode-yaml",
+    "hashicorp.terraform",
+    "eamodio.gitlens",
+    "davidanson.vscode-markdownlint",
+    "yzhang.markdown-all-in-one"
+  ]
+}
